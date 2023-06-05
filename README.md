@@ -7,7 +7,7 @@ We provide an objective evaluation to quantify human-annotated explanations’ h
 Our evaluation consists of the following novelties:
 1. A prompt-based unified data format for various tasks
 2. A novel metric **TREU** evaluates explanations’ helpfulness at different stages
-3. An evaluation with 5 datasets and 2 models justifies the faithfulness and consistency of TREU compared with the Simulatability score
+3. An evaluation with 5 datasets and 2 models justifies the faithfulness and consistency of **TREU** compared with the Simulatability score
 
 ## Todo
 

@@ -9,6 +9,11 @@ Our evaluation consists of the following novelties:
 2. A novel metric TREU evaluates explanations’ helpfulness at different stages
 3. An evaluation with 5 datasets and 2 models justifies the faithfulness and consistency of TREU compared with the Simulatability score
 
+## Todo
+
+- [ ] We plan to provide some simple code to support fine-tuning / inference with our unified structure
+
+
 ## Contributions
 
 ### Utility of Explanations at Fine-tuning and inference
@@ -61,9 +66,6 @@ We perform the evaluation on 5 Datasets with human-annotated explanations and 2 
   <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/c80f3a06-344a-4afc-a488-1beb30ef23d5" alt="Datasets" title="Datasets" width=600/>
 </p>
 
-## Todo
-
-- [ ] We plan to provide some simple code to support fine-tuning / inference with our unified structure
 
 
 ## Citation

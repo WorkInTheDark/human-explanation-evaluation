@@ -20,12 +20,11 @@ Our evaluation consists of the following novelties:
 
 <p align="middle">
   <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/In-depth%20Experiment%20on%20CoS-E%20v1.0.svg" alt="In-depth Experiment on CoS-E v1.0" title="In-depth Experiment on CoS-E v1.0" width=400/>
-</p>
-<p align="middle">
+
   <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/In-depth%20Experiment%20on%20ECQA.svg" alt="In-depth Experiment on ECQA" title="In-depth Experiment on ECQA" width=400/>
 </p>
 
-Figure 1. In-depth experiment on CoS-E v1.0 (top) and ECQA (bottom) with different amounts of training data. We repeat the process 3 times to obtain an average score.
+Figure 1. In-depth experiment on CoS-E v1.0 (top/left) and ECQA (bottom/right) with different amounts of training data. We repeat the process 3 times to obtain an average score.
 
 Observations from the diagrams above by comparing different settings: 
 

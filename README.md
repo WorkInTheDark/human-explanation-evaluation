@@ -19,17 +19,17 @@ Our evaluation consists of the following novelties:
 ### Utility of Explanations at Fine-tuning and inference
 
 <p align="middle">
-  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/f61fc211-69a4-436d-8383-14bb559510a7" alt="In-depth Experiment on CoS-E v1.0" title="In-depth Experiment on CoS-E v1.0" width=400/>
+  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/In-depth%20Experiment%20on%20CoS-E%20v1.0.svg" alt="In-depth Experiment on CoS-E v1.0" title="In-depth Experiment on CoS-E v1.0" width=400/>
 </p>
 <p align="middle">
-  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/153fbfc0-80a7-44cc-a445-8bc3fc6d27b2" alt="In-depth Experiment on ECQA" title="In-depth Experiment on ECQA" width=400/>
+  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/In-depth%20Experiment%20on%20ECQA.svg" alt="In-depth Experiment on ECQA" title="In-depth Experiment on ECQA" width=400/>
 </p>
 
 Figure 1. In-depth experiment on CoS-E v1.0 (top) and ECQA (bottom) with different amounts of training data. We repeat the process 3 times to obtain an average score.
 
 Observations from the diagrams above by comparing different settings: 
 
-![image](https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/e5a445d3-5240-4c41-9a7b-cb1ba54b71f7)
+![image](https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/observations.png)
 
 ### Unified Data Format
 
@@ -38,7 +38,7 @@ Convert NLP tasks into a unified multiple-choice task to minimize the influence 
 * **Infusion**: leverage explanation as additional input
 
 <p align="middle">
-  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/6dffebf7-2b8e-40a8-a878-8e56a1ab7c4a" alt="Unified Data Format" title="Unified Data Format" width=500/>
+  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/unified_data_format.png" alt="Unified Data Format" title="Unified Data Format" width=500/>
 </p>
 
 Figure 2. Unified structure of Baseline and Infusion settings. Black bold texts are fixed prompts. The color schema follows: blue denotes question content; green denotes choices; orange denotes explanations. We provide examples of **Infusion** in e-SNLI (classification) as well as CoS-E and ComVE (multi-choice). 
@@ -47,7 +47,7 @@ Figure 2. Unified structure of Baseline and Infusion settings. Black bold texts 
 ### **TREU** Metric
 
 <p align="middle">
-  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/c2fb0226-3221-44d4-8d42-1893a3e6e3b8" alt="TREU Metric" title="TREU Metric" />
+  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/treu_metric.png" alt="TREU Metric" title="TREU Metric" />
 </p>
 
 
@@ -57,13 +57,13 @@ Figure 3. Formula of our **TREU** metric. It evaluates helpfulness of explanatio
 
 
 <p align="middle">
-  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/5e807f14-8026-4831-910c-710144338532" alt="Datasets" title="Datasets" width=600/>
+  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/datasets.png" alt="Datasets" title="Datasets" width=600/>
 </p>
 
 We perform the evaluation on 5 Datasets with human-annotated explanations and 2 model architectures, using our **TREU** metric and the established Simulatability score
 
 <p align="middle">
-  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/assets/68862265/c80f3a06-344a-4afc-a488-1beb30ef23d5" alt="Datasets" title="Datasets" width=600/>
+  <img src="https://github.com/WorkInTheDark/human-explanation-evaluation/blob/main/resources/evaluations.png" alt="Datasets" title="Datasets" width=600/>
 </p>
 
 
